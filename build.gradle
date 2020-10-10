@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+group 'net.therunninghub'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -10,5 +10,8 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox
+    compile group: 'org.apache.pdfbox', name: 'pdfbox', version: '2.0.21'
+    // https://mvnrepository.com/artifact/com.github.librepdf/openpdf
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
