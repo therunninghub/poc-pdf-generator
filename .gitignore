@@ -27,3 +27,6 @@ dataSources
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# Project folder
+generated/
